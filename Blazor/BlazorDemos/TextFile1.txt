@@ -1,0 +1,12 @@
+
+PWA guide
+
+1 add the aspnetcore webapp project
+2 add the manifest json in wwwroot, add item json file called exactly manifest.json
+3 generate the favicons for the different resolutions, www.favicon-generator.org
+4 added the images to the proj and define them in the manifest.json and copy the favicon.ico file to the wwwroot folder
+5 add the service worker sw.js into wwwroot
+6 add the service worker install script app-sw.js
+7 add the html elements for 'add-to-home (a2h)' to the first page of the application index.cshtml, add the references to app-sw.js
+8 add the handler for the button to install the pwa application (/js/addtohome.js)
+9 add references to manifest and icons in the layout page
